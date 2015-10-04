@@ -22,6 +22,9 @@
             paras.hide().eq(0).show();
             headings.click(function(){
                 var cur = $(this); //save the element that has been clicked for easy retreival
+                cur.siblings('p').slideUp(); //hide all the paragraphs
+                cur.next('p').slideDown(); //get next paragraph after the clicked header and show it
+
 
             });
         </script>

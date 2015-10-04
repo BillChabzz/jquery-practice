@@ -8,3 +8,9 @@ $('li').children(); //selects list children
 $('li').eq(2); //selects list item 3
 //jquery principle of chainability...running functions after another like below
 $('ul').children('li').eq(3).animate({...});
+/*
+$('ul'); selects all ul on page
+children('li'); all children of lists
+eq(3); select 2nd list from each list
+animate({...}); animates item
+*/

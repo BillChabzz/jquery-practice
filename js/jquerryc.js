@@ -27,3 +27,8 @@ $('h2').next(); //selects the next sibling (the paragraph)/
 $('h2').nextAll(); //selects all the siblings after it
 $('p').prev(); //selects the previous sibling (the h2)/
 $('p').prevAll(); //selects the previous siblings
+
+//paragraph script
+$('p').nextAll();
+$('h2').siblings();
+$('h2').siblings('p') //

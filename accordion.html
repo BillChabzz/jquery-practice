@@ -16,5 +16,14 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script type="text/javascript">
+            var headings = $('h3'),
+                paras = $('p');
+            paras.hide().eq(0).show();
+            headings.click(function(){
+                var cur = $(this); //save the element that has been clicked for easy retreival
+
+            });
+        </script>
     </body>
 </html>

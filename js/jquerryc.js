@@ -31,4 +31,6 @@ $('p').prevAll(); //selects the previous siblings
 //paragraph script
 $('p').nextAll();
 $('h2').siblings();
-$('h2').siblings('p') //
+$('h2').siblings('p') //sibling can take an argument
+
+

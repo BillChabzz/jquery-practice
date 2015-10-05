@@ -1,3 +1,8 @@
+body{
+    background-color: radial-gradient(lightgray, gray , darkgray);
+    background-color: -webkit-radial-gradient(lightgray, gray , darkgray);
+    background-color: -moz-radial-gradient(lightgray, gray , darkgray);
+}
 #something {
 	width: 200px;
     height: 200px;
@@ -11,10 +16,21 @@ p{height: 150px; width: 200px; border: 1px solid black;}
 h3{height: 50px; width: 200px; background-color: blue; color: #fff; border:1px solid black;}
 
 #slide-nav-wrapper {
-   height: 1000px;
+    display: none;
+   height: auto;
     width: 400px;
     background-color: red;
 	position: absolute;
-    top: 0;
-    left: 0;
+    margin-left: -100px;
+    /*top: 0;
+    left: 0;*/
+}
+h5{
+    cursor: pointer;
+}
+#kto {
+    color: #fff;
+	height: 150px;
+    width: 300px;
+    background-color: red;
 }

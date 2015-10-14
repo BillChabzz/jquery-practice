@@ -18,14 +18,27 @@
                         <li>HOME</li>
                     </ul>
                 </nav>
+
             </div>
         </div>
+        <p>asdasfasfas6dfa</p>
+                <p class="broot">asdasfasfas6dfa</p>
+                <p class="broot">asdasfasfas6dfa</p>
+                <p class="broot">asdasfasfas6dfa</p>
+
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script>
         $(document).ready(function(){
             $('#push').click(function(){
-                $('#slide-nav-wrapper,pu').toggle(500).animate({'margin-top': '40px'},900)
+                $('#slide-nav-wrapper').toggle(500).animate({ 'margin-top': '40px',
+
+                                                                 },900,function(){
+                                                                $('#slide-nav-wrapper').animate({
+                                                                    'margin-top':'-40px'
+                                                                })
+                });
             });
         });
         </script>

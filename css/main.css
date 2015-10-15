@@ -21,15 +21,16 @@ h3{height: 50px; width: 200px; background-color: blue; color: #fff; border:1px s
 #slide-nav-wrapper {
 
     height: auto;
-    display: none;
+    /*display: none;*/
    height: ;
     width: 100%;
     background-color: rgba(5,4,2,0.1);
-	position: absolute;
-    margin-top: -150px;
+	/*position: absolute;*/
+    margin-top: 20px;
     top: 0;
     left: 0;
 }
+
 h5{
     text-align: center;
     cursor: pointer;

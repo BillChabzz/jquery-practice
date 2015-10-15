@@ -21,21 +21,21 @@
 
             </div>
         </div>
-        <p>asdasfasfas6dfa</p>
+        <!--<p>asdasfasfas6dfa</p>
                 <p class="broot">asdasfasfas6dfa</p>
                 <p class="broot">asdasfasfas6dfa</p>
                 <p class="broot">asdasfasfas6dfa</p>
-
+-->
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script>
         $(document).ready(function(){
             $('#push').click(function(){
-                $('#slide-nav-wrapper').toggle(500).animate({ 'margin-top': '80px',
+                $('#slide-nav-wrapper').click().animate({ 'margin-top': '80px',
 
                                                                  },900,function(){
-                                                                $('#slide-nav-wrapper').animate({
+                                                                $('#slide-nav-wrapper').stop.animate({
                                                                     'margin-top':'-40px'
                                                                 })
                 });

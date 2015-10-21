@@ -1,0 +1,25 @@
+.hero {
+	text-align: center;
+    font-weight: 100;
+}
+.intro {
+	position: relative;
+    text-align: center;
+}
+.intro .slide p{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0
+}
+.intro .slide.inactive {
+	opacity: 0;
+    transition: show 3s ease;
+}
+.intro .slide.active {
+	opacity: 1;
+}
+@keyframes show{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}

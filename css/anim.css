@@ -14,12 +14,18 @@
 }
 .intro .slide.inactive {
 	opacity: 0;
-    transition: show 3s ease;
+    animation: show 3s ease infinite;
 }
 .intro .slide.active {
 	opacity: 1;
+    animation: hide 5s ease infinite;
 }
 @keyframes show{
     from{opacity: 0;}
     to{opacity: 1;}
 }
+@keyframes hide{
+    from{opacity: 1;}
+    to{opacity: 0;}
+}
+
